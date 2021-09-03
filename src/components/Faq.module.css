@@ -1,0 +1,27 @@
+.container {
+  width: 960px;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.container h2 {
+  background-color: rgba(135, 45, 219, 0.747);
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+}
+.container p {
+  width: 860px;
+  margin-top: 0;
+  font-size: 22px;
+}
+.container h1 {
+  color: rgba(35, 87, 132, 1);
+}
+.container a {
+  color: rgba(135, 45, 219, 0.993);
+}
