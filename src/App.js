@@ -9,19 +9,19 @@ import Faq from './components/Faq';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className='App'>
+    <div className='App'>
+      <BrowserRouter>
         <Nav />
         <Switch>
           <Route path='/' exact component={Home} />
+
           <Route path='/our-services' component={OurServices} />
           <Route path='/clearances' component={Clearances} />
           <Route path='/contact-us' component={ContactUs} />
-
           <Route path='/faq' component={Faq} />
         </Switch>
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 }
 

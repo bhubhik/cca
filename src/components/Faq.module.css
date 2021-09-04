@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin: 60px auto 0 auto;
 }
 .container h2 {
   background-color: rgba(135, 45, 219, 0.747);

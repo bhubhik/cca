@@ -8,6 +8,11 @@ const Home = () => {
           in Australia
         </h3>
       </div>
+      <div className='info'>
+        <div className='card1'>Our Services</div>
+        <div className='card2'>Import Clearances</div>
+        <div className='card3'>Export Clearances</div>
+      </div>
     </div>
   );
 };
