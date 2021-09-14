@@ -68,12 +68,16 @@ nav a:hover,
   right: -45px;
   z-index: -1;
 }
+
 .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: rgba(35, 87, 132, 0.8);
   padding: 10px;
   border-radius: 6px;
   color: white;
-  margin: 150px auto 25px auto;
+  margin-top: 150px;
 }
 .our-services {
   margin-top: 65px;
@@ -82,4 +86,13 @@ nav a:hover,
   text-align: center;
   color: rgba(35, 87, 132, 1);
   font-size: 38px;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
+  .info {
+    width: 90%;
+  }
 }
