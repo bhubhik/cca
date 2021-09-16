@@ -28,9 +28,42 @@ const Home = () => {
       <div className='our-services'>
         <h1>Our Services</h1>
         <div className='contents'>
-          <div className='serviceImage'></div>
-          <p></p>
+          <p>
+            CCA’s dedicated team are readily available to meet and service your
+            import/export needs. We assure to serve you in a fast and cost
+            efficient manner, encompassing all aspects, whether you are an
+            individual, SME or multinational company.
+          </p>
+          <div className='service-content'>
+            <div className='service-image' />
+            <ul>
+              <li>Import Air / Sea cargo reporting</li>
+              <li>Export Air / Sea cargo reporting</li>
+              <li>Personal Effects (PE) Clearances</li>
+              <li>Cargo clearances over AU$1000</li>
+              <li>Self-assessed Clearance (SAC) reporting</li>
+              <li>Delivery and warehousing solutions</li>
+              <li>Customer solution support</li>
+              <li>
+                Document delivery, process and bill clearing / checking off
+                functions
+              </li>
+              <li>Retrieval of delivery orders</li>
+              <li>Delivery / collection of industry documentation</li>
+              <li>AQIS / IFIP document processing</li>
+              <li>Airline document and counter processing</li>
+              <li>Attendance at AQIS / Customs inspections and examinations</li>
+              <li>Dispatch centre for transport companies</li>
+              <li>Clearing House of Industry affiliates – Australia wide</li>
+              <li>Online solutions</li>
+              <li>Customer solution support</li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <div className='quote'>
+        <h2>REQUEST A FREE QUOTE TODAY</h2>
+        <button>Contact Us</button>
       </div>
     </>
   );
