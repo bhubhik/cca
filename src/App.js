@@ -19,6 +19,7 @@ function App() {
           <Route path='/faq' component={Faq} />
         </Switch>
       </BrowserRouter>
+      <footer>Customs and Cargo Administrators Pty Ltd 2021 ©</footer>
     </div>
   );
 }

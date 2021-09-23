@@ -22,7 +22,11 @@ nav ul {
   height: 60px;
   margin: 15px;
 }
-
+footer {
+  margin-top: 10px;
+  font-size: 14px;
+  color: gray;
+}
 nav a {
   text-align: center;
   padding: 10px 20px 10px 20px;
@@ -104,23 +108,50 @@ nav a:hover,
   text-align: center;
   color: rgba(35, 87, 132, 0.8);
 }
-.service-content {
-  position: relative;
-}
 .service-image {
-  position: absolute;
   background: url('./components/images/our-services.jpg');
   height: 420px;
   width: 390px;
   background-size: cover;
   z-index: -1;
 }
-.service-content ul {
-  color: rgba(35, 87, 132, 1);
-  position: absolute;
-  right: 0;
+.service-content {
+  display: flex;
+  justify-content: space-between;
 }
 
+.service-content ul {
+  margin-top: 45px;
+  color: rgba(35, 87, 132, 1);
+}
+.quote {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote h2 {
+  text-align: center;
+  color: rgba(35, 87, 132, 1);
+  font-size: 24px;
+}
+.quote button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(135, 45, 219, 0.88);
+  background: rgba(135, 45, 219, 0.88);
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.quote button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgba(135, 45, 219, 0.88);
+  border: 1px solid rgba(135, 45, 219, 0.88);
+}
 @media only screen and (max-width: 1000px) {
   body {
     width: 100%;
