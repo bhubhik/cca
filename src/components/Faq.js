@@ -4,7 +4,7 @@ import classes from './Faq.module.css';
 const Faq = () => {
   return (
     <div className={classes.container}>
-      <h2>Frequently Asked Questions</h2>
+      <h2 className='heading'>Frequently Asked Questions</h2>
       <h1>Why do I need a customs broker?</h1>
       <p>
         Even though there is no legal requirement for you to hire a Customs
