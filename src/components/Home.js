@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
     <>
@@ -63,7 +65,10 @@ const Home = () => {
       </div>
       <div className='quote'>
         <h2>REQUEST A FREE QUOTE TODAY</h2>
-        <button>Contact Us</button>
+
+        <Link to='/contact-us' className='button-link'>
+          Contact Us
+        </Link>
       </div>
     </>
   );

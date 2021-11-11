@@ -15,7 +15,6 @@ function App() {
         <Nav />
         <Switch>
           <Route path='/' exact component={Home} />
-
           <Route path='/clearances' component={Clearances} />
           <Route path='/import-clearances' component={Import} />
           <Route path='/export-clearances' component={Export} />
