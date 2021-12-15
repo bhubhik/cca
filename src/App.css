@@ -203,7 +203,7 @@ a {
 .cards {
   display: inline-block;
   padding: 8px;
-  background-color: rgba(35, 87, 132, 0.8);
+  background-color: #40a8c4;
   border-radius: 6px;
   color: white;
   font-size: 32px;
@@ -213,9 +213,9 @@ a {
 }
 
 .cards:hover {
-  color: #235784;
+  color: #40a8c4;
   background-color: white;
-  border: solid 2px #235784;
+  border: solid 2px #40a8c4;
 }
 
 .heading {
