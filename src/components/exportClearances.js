@@ -7,9 +7,9 @@ const Export = () => {
       <p className={classes.title}>Export Clearances</p>
       <svg className={classes.line}>
         <line
-          x1='50'
+          x1='0'
           y1='0'
-          x2='250'
+          x2='360'
           y2='0'
           stroke='#235784'
           strokeWidth='3px'

@@ -1,15 +1,12 @@
 .title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 42px;
   color: #235784;
 }
 
 .line {
   display: block;
-  margin: 0 auto;
   height: 30px;
+  width: 480px;
 }
 .content h4 {
   font-size: 24px;
@@ -37,7 +34,7 @@
 .content a {
   color: rgba(142, 74, 229, 1);
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .cards {
     display: flex;
     flex-direction: column;

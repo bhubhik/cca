@@ -14,15 +14,15 @@ const Nav = () => {
           </NavLink>
           <NavLink activeClassName='active' to='/clearances'>
             <div className='dropdown'>
-              <li activeClassName='active'>Clearances</li>
-              {/* <div class='dropdown-content'>
+              <li activeClassName='active'>Clearances &#9660;</li>
+              <div class='dropdown-content'>
                 <NavLink className='clearances' to='/import-clearances'>
                   <li activeClassName='dropdown-active'>Import Clearances</li>
                 </NavLink>
                 <NavLink className='clearances' to='/export-clearances'>
                   <li activeClassName='dropdown-active'>Export Clearances</li>
                 </NavLink>
-              </div> */}
+              </div>
             </div>
           </NavLink>
           <NavLink activeClassName='active' to='/contact-us'>
