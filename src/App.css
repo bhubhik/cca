@@ -255,7 +255,7 @@ a {
 }
 
 /* Mobile NavBar */
-#hamburger-icon {
+/* #hamburger-icon {
   margin: auto 0;
   display: none;
   cursor: pointer;
@@ -300,7 +300,7 @@ a {
 
 .mobile-menu li {
   margin-bottom: 10px;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   body {
@@ -309,11 +309,8 @@ a {
   .info {
     width: 90%;
   }
-  .header nav {
-    display: none;
-  }
 
-  #hamburger-icon {
+  /* #hamburger-icon {
     display: block;
-  }
+  } */
 }

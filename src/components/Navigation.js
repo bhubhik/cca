@@ -2,10 +2,10 @@ import { Link, NavLink } from 'react-router-dom';
 import logo from './images/logo2.png';
 
 const Nav = () => {
-  const toggleMobileMenu = (e) => {
-    console.log(e);
-    // e.classList.toggle('open');
-  };
+  // const toggleMobileMenu = (e) => {
+  //   console.log(e);
+  //   // e.classList.toggle('open');
+  // };
   return (
     <div className='header'>
       <Link to='/'>
@@ -37,7 +37,7 @@ const Nav = () => {
           </NavLink>
         </ul>
       </nav>
-      <div
+      {/* <div
         id='hamburger-icon'
         className='closed'
         onclick={toggleMobileMenu(this)}
@@ -69,7 +69,7 @@ const Nav = () => {
             <li>FAQ</li>
           </NavLink>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
