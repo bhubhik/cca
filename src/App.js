@@ -1,18 +1,25 @@
 import './App.css';
-import Nav from './components/Navigation';
-import Home from './components/Home';
+import Home from './pages/Home';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Clearances from './components/Clearances';
-import ContactUs from './components/Contact';
-import Faq from './components/Faq';
-import Import from './components/importClearances';
-import Export from './components/exportClearances';
+import Clearances from './pages/Clearances';
+import ContactUs from './pages/Contact';
+import Faq from './pages/Faq';
+import Import from './pages/importClearances';
+import Export from './pages/exportClearances';
+import NavBar from './components/Navbar/Navigation';
+import { useState } from 'react';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div className='App'>
       <BrowserRouter>
-        <Nav />
+        <NavBar toggle={toggle} />
+        <Sidebar isOpen={isOpen} toggle={toggle} />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/clearances' component={Clearances} />
