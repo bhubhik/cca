@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const Clearances = () => {
   return (
-    <div>
+    <div className='clearances-mobile'>
       <h1 className='heading'>Clearances</h1>
       <h2 className='sub-heading'>We take care of your freight</h2>
       <p>
@@ -13,12 +13,14 @@ const Clearances = () => {
         personnel, focused on attaining a clear customs status and cargo
         clearance for clients import/export consignments.
       </p>
-      <NavLink to='/import-clearances'>
-        <p className='cards'> Import Clearances</p>
-      </NavLink>
-      <NavLink to='/Export-clearances'>
-        <p className='cards'>Export Clearances</p>
-      </NavLink>
+      <div className='buttons'>
+        <NavLink to='/import-clearances'>
+          <p className='cards'> Import Clearances</p>
+        </NavLink>
+        <NavLink to='/Export-clearances'>
+          <p className='cards'>Export Clearances</p>
+        </NavLink>
+      </div>
     </div>
   );
 };

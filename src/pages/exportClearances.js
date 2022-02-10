@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Export = () => {
   return (
-    <div>
+    <div className={classes.body}>
       <p className={classes.title}>Export Clearances</p>
       <svg className={classes.line}>
         <line

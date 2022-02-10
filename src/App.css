@@ -260,7 +260,63 @@ a {
   body {
     width: 100%;
   }
+  .home-content {
+    background: rgb(139, 161, 238);
+    background: linear-gradient(
+      327deg,
+      rgba(139, 161, 238, 0.5242471988795518) 18%,
+      rgba(254, 255, 255, 0.796) 45%,
+      rgba(176, 204, 250, 0.628) 83%
+    );
+  }
+  .container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
+  .sub-header h3 {
+    color: rgb(35 87 132);
+  }
+  .home-image {
+    display: none;
+  }
   .info {
-    width: 90%;
+    border-radius: 0;
+    margin-top: 50px;
+  }
+  .service-image {
+    display: none;
+  }
+  .our-services {
+    text-align: left;
+    margin-top: 50px;
+  }
+  .contact-img {
+    display: none;
+  }
+
+  .contact-details h3 {
+    font-size: 18px;
+  }
+  .contact-map {
+    width: 460px;
+  }
+  .clearances-mobile {
+    width: 465px;
+    margin-left: 10px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .cards {
+    font-size: 22px;
+    width: 350px;
   }
 }

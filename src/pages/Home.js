@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <>
+    <div className='home-content'>
       <div className='container'>
         <div className='sub-header'>
           <h1>Customs & Cargo Administrators</h1>
@@ -70,7 +70,7 @@ const Home = () => {
           Contact Us
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 

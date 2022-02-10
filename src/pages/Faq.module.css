@@ -21,3 +21,20 @@
 .container a {
   color: rgba(135, 45, 219, 0.993);
 }
+@media screen and (max-width: 768px) {
+  .container {
+    width: 465px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .container p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .container h1 {
+    width: 100%;
+  }
+  .container h2 {
+    font-size: 22px;
+  }
+}

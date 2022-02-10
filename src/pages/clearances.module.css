@@ -44,4 +44,8 @@
   .cards div {
     margin-bottom: 20px;
   }
+  .content {
+    width: 465px;
+    margin-left: 10px;
+  }
 }
