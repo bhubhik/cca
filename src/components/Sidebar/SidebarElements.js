@@ -9,7 +9,7 @@ export const SidebarContainer = styled.aside`
   height: 100%;
   display: grid;
   align-items: center;
-  background: #01060f;
+  background: #3673e2eb;
   top: 0;
   left: 0;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};

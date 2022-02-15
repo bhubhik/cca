@@ -256,21 +256,13 @@ a {
   border-radius: 6px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body {
     width: 100%;
   }
-  .home-content {
-    background: rgb(139, 161, 238);
-    background: linear-gradient(
-      327deg,
-      rgba(139, 161, 238, 0.5242471988795518) 18%,
-      rgba(254, 255, 255, 0.796) 45%,
-      rgba(176, 204, 250, 0.628) 83%
-    );
-  }
+
   .container {
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,7 +297,6 @@ a {
     width: 460px;
   }
   .clearances-mobile {
-    width: 465px;
     margin-left: 10px;
   }
   .buttons {

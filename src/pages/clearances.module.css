@@ -35,6 +35,14 @@
   color: rgba(142, 74, 229, 1);
 }
 @media only screen and (max-width: 768px) {
+  .content {
+    margin-left: 10px;
+  }
+  .line {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
   .cards {
     display: flex;
     flex-direction: column;
@@ -43,9 +51,5 @@
   }
   .cards div {
     margin-bottom: 20px;
-  }
-  .content {
-    width: 465px;
-    margin-left: 10px;
   }
 }
