@@ -8,7 +8,6 @@ body {
 .header {
   width: auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -24,7 +23,6 @@ nav li {
   border-radius: 6px;
   height: 60px;
   margin: 15px;
-  border: none;
 }
 
 footer {
@@ -33,20 +31,6 @@ footer {
   color: gray;
 }
 
-/* nav a {
-  text-align: center;
-  padding: 10px 20px 10px 20px;
-  color: rgba(35, 87, 132, 1);
-  margin-right: 2px;
-  font-size: 18px;
-  border: rgba(250, 250, 250, 0) 2px solid;
-  border-radius: 60px;
-}
-
-nav a:hover,
-.active {
-  border: #40a8c4 2px solid;
-} */
 a {
   color: #235784;
   text-decoration: none;
@@ -80,7 +64,7 @@ a {
   display: flex;
   position: relative;
   align-items: center;
-  margin: 120px auto 0 auto;
+  margin: 90px auto 0 auto;
 }
 
 .sub-header {
@@ -110,9 +94,6 @@ a {
 }
 
 .info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: rgba(35, 87, 132, 0.8);
   padding: 10px;
   border-radius: 6px;
@@ -181,7 +162,7 @@ a {
 }
 
 .quote a {
-  padding: 12px;
+  padding: 10px;
   font-size: 16px;
   border-radius: 8px;
   border: 1px solid rgba(135, 45, 219, 0.88);
@@ -266,7 +247,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-align: center;
   }
   .sub-header h3 {
