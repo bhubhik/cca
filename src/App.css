@@ -243,6 +243,9 @@ a {
   body {
     width: 100%;
   }
+  .logo {
+    margin-left: 10px;
+  }
 
   .container {
     margin-top: 0px;
