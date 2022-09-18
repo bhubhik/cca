@@ -10,12 +10,11 @@
 .container p {
   width: 860px;
   margin-top: 0;
-  font-size: 16px;
 }
 .container h1 {
   width: 860px;
   text-align: left;
-  font-size: 20px;
+  font-size: 24px;
   color: rgba(35, 87, 132, 1);
 }
 .container a {
